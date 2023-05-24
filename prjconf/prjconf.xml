@@ -1,0 +1,8 @@
+# device-specific project conf:
+Prefer: droid-hal-pdx235-devel
+Prefer: ohm-configs-default
+
+# droid-hal has Requires(post): droid-config-flashing which is not really needed at build time
+# this is the only way to kludge it away
+
+Substitute: droid-config-flashing bash

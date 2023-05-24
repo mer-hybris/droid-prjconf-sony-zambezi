@@ -1,0 +1,3 @@
+[submodule "droid-hal-prjconf"]
+	path = droid-hal-prjconf
+	url = https://github.com/mer-hybris/droid-hal-prjconf.git
